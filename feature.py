@@ -1,6 +1,5 @@
 tasks = []
-task = input("Enter a task: ")
-def add_a_task(task):
-    tasks.append(task)
-add_a_task(task)
 
+def add_task(task):
+    tasks.append(task)
+    print(f"Task added: {task}")
